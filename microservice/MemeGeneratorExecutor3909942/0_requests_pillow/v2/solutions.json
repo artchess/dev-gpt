@@ -1,0 +1,6 @@
+{
+    "1": "Replace the 'arial.ttf' font file with a font file that is available in the Docker container. For example, use 'FreeMono.ttf' which is available in the '/usr/share/fonts/truetype/freefont/' directory. Update the font path in the microservice.py file to '/usr/share/fonts/truetype/freefont/FreeMono.ttf'.",
+    "2": "Download the 'arial.ttf' font file from a URL and save it to a temporary file. Use the temporary file as the font file in the ImageFont.truetype() function. Make sure to clean up the temporary file after using it.",
+    "3": "Create a custom font file and include it in the project files. Update the font path in the microservice.py file to use the custom font file.",
+    "4": "Use the 'PIL.ImageFont.load_default()' function to load the default font instead of using 'arial.ttf'. Note that this may result in a different font style being used for the captions."
+}

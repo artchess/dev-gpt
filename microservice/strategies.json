@@ -1,0 +1,5 @@
+[
+  ["requests", "Pillow"],
+  ["requests", "cv2"],
+  ["requests", "imageio"]
+]

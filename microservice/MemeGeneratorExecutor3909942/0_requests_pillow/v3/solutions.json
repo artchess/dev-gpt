@@ -1,0 +1,6 @@
+{
+    "1": "Replace the font path with a font file that is available in the Docker container. For example, use '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf' instead of '/usr/share/fonts/truetype/freefont/FreeMono.ttf'.",
+    "2": "Include a font file in your project and copy it to the Docker container using the COPY command in the Dockerfile. Then, update the font path in microservice.py to point to the copied font file.",
+    "3": "Use the default font provided by PIL by not specifying the font parameter in the draw.text() function. This will use the default font, but it may not be the desired font style or size.",
+    "4": "Install additional fonts in the Docker container using the apt-get command, and then use the path to one of the installed fonts in the microservice.py file."
+}

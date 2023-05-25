@@ -1,0 +1,5 @@
+jtype: GatewayMemeGeneratorExecutor3909942
+py_modules:
+  - custom_gateway.py
+metas:
+  name: GatewayMemeGeneratorExecutor3909942
