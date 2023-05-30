@@ -5,3 +5,4 @@ data
 build
 dev-gpt.egg-info
 dist
+#__pycache__/
